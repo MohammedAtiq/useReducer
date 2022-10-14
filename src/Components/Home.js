@@ -65,6 +65,7 @@ const Home = () => {
                                 } else if (value.category.toLowerCase().includes(search.toLowerCase())) {
                                     return value
                                 }
+                                return false;
                             }).map((prod) => {
                                 return <SinglCard prod={prod} key={prod.id} />
                             })

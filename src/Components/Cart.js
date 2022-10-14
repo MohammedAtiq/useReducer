@@ -13,7 +13,6 @@ const Cart = () => {
       cartStore.reduce((accrOneValue, cartData) => accrOneValue + Number(cartData.price) * cartData.qty, 0))
   }, [cartStore]);
 
-  console.log(total)
 
   return (
     <>
