@@ -13,7 +13,7 @@ const Cart = () => {
       cartStore.reduce((accrOneValue, cartData) => accrOneValue + Number(cartData.price) * cartData.qty, 0))
   }, [cartStore]);
 
-
+  console.log(total)
 
   return (
     <>
@@ -27,7 +27,7 @@ const Cart = () => {
               <div className="d-flex justify-content-between align-items-center mb-4">
 
                 <div>
-                  <p className="mb-0"><span className="text-muted">Total:</span> <a href="#!" className="text-body">$:  {total}<i
+                  <p className="mb-0"><span className="text-muted">Total:</span> <a href="#!" className="text-body">$:  {Math.round(total)}<i
                     className="fas fa-angle-down mt-1"></i></a></p>
                 </div>
               </div>

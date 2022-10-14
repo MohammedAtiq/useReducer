@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
 
             <div className="navbar-nav ms-lg-4">
-              <li className="nav-item">
+              <ul className="nav-item">
                 <li className="nav-item dropdown">
 
                 
@@ -71,7 +71,7 @@ const Navbar = () => {
                     }
                   </ul>
                 </li>
-              </li>
+              </ul>
             </div>
           </div>
         </div>
