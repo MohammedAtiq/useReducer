@@ -5,7 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import Cart from './Components/Cart';
-import Home2 from './Components/Home2';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/Home2" element={<Home2 />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Cart" element={<Cart />} />
       </Routes>
+      <Footer />
     </>
   );
 }

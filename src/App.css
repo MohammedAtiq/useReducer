@@ -1,7 +1,150 @@
+
+body{
+  background-color: rgb(221 221 221) !important;
+}
+
 .bgImg{
   background-image: url(./Components/images/Untitled-1.jpg);
   background-size: cover;
   background-position: center ;
   height: 60vh;
+}
+
+.form-select{
+  width: 50% !important;
+}
+
+.dropdown-toggle{
+  padding: 0 5px !important;
+}
+
+.icon{
+  font-size:32px;
+  color: #00d5ff !important;
+}
+
+.icon2{
+  font-size:32px;
+  color:rgb(79, 79, 167) !important;
+}
+
+
+.icon1{
+  font-size:32px;
+  color:red !important;
+}
+
+.icon3{
+  font-size:22px;
+  color: red;
+}
+
+.nav-link{
+  font-size:20px !important;
+  color:white !important;
+  padding: 0 20px !important;
+}
+
+.logo{
+  color: #00d5ff !important;
+  font-size:25px !important;
+  padding: 0 !important;
+  font-weight:bold !important;
+}
+
+
+.form-control{
+  color: white !important;
+}
+
+
+.navbar-brand{
+  margin: 0 5px !important;
+}
+
+.list-unstyled a{
+  text-decoration: none;
+  color: black !important;
+  font-size: 13px;
+}
+
+.text-body{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar{
+  position: fixed !important;
+  top: 0 ;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.creat button{
+  float: right;
+}
+
+
+.price{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.maincard{
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+@media screen and (min-width: 990px){
+  .cartSec1{
+    display:none; 
+  }
+  
+ 
+}
+
+@media screen and (max-width: 990px){
+  .cartSec2{
+    display:none;
+  }
+  .dropdown-toggle{
+    display:none !important;
+  }
+  .cartSec1{
+    position:absolute;
+    top: 18px;
+    right: 55px;
+  }
+  .navbar-toggler{
+    padding: 0 !important;
+  }
+
+  .footCenter{
+    text-align: center;
+  }
+  .card{
+    width: 70%;
+    margin: auto;
+  }
+ .text-end button{
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+ }
+ .cardpera p{
+  font-size:14px;
+  margin: 10px 0;
+ }
+.card-img-top{
+  height: 12rem !important;
+  width: 10rem !important;
+  margin:10px auto !important;
+}
+.search{
+  width:250px;
+}
 }
 
